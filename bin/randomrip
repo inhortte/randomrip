@@ -1,0 +1,12 @@
+#!/usr/bin/ruby
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+require 'randomrip'
+
+artist = "Fred Frith"
+title = "Pacifica"
+tracks = [ "Pacifica Part 1", "Pacifica Part 2", "Unknown", "I Hit Tony On The Head With A Giant Red Hammer" ]
+
+GUI.new(artist, title, tracks)
+
+
+
